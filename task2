@@ -1,0 +1,10 @@
+// Square Shape using Stars
+let size = 5; // சதுரத்தின் அளவு
+
+for (let i = 0; i < size; i++) {
+    let row = "";
+    for (let j = 0; j < size; j++) {
+        row += "* ";
+    }
+    console.log(row);
+}
